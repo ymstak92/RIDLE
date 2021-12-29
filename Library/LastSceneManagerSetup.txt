@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Firewall/SandBox.unity
+- path: Assets/Firewall/StartUp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

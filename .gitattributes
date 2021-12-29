@@ -30,3 +30,4 @@ Library/Artifacts/c8/c81e49951f046adc38b1cfe1abb65aa6 filter=lfs diff=lfs merge=
 Library/Artifacts/c8/c89fb299dc7f2dc1b55e1bbe26ad012b filter=lfs diff=lfs merge=lfs -text
 Library/Artifacts/c6/c6b7e80b9596f7b20814551f975b4984 filter=lfs diff=lfs merge=lfs -text
 Library/Artifacts/c5/c5ec1244bffe543a61d050229c8d91cc filter=lfs diff=lfs merge=lfs -text
+.vs/RIDLE/v15/Server/sqlite3/storage.ide-wal filter=lfs diff=lfs merge=lfs -text
