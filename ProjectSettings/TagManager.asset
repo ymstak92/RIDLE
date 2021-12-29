@@ -3,7 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Stage
+  - Enemy
+  - PlayerAttack
+  - PlayerBody
+  - Item
+  - Goal
+  - PlatformEffector
+  - SpringPoint
+  - DamageGimmick
+  - Gimmick
+  - StageObject
+  - EnemyAttack
+  - Spring
+  - StageEdge
+  - Supporter
+  - UnderTrigger
+  - Text
+  - PlayerMiss
+  - PlayerSlashing
+  - PlayerTrampling
   layers:
   - Default
   - TransparentFX
@@ -13,18 +33,18 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Stage
+  - Enemy
+  - MissEnemy
+  - PlayerAttack
+  - EnemyAttack
+  - Suppoter
+  - BigEnemy
+  - DamageBigEnemy
+  - Spring
+  - PlatformEffector
+  - FlyEnemy
   - 
   - 
   - 
