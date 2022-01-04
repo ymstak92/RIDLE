@@ -32,3 +32,5 @@ Library/Artifacts/c6/c6b7e80b9596f7b20814551f975b4984 filter=lfs diff=lfs merge=
 Library/Artifacts/c5/c5ec1244bffe543a61d050229c8d91cc filter=lfs diff=lfs merge=lfs -text
 .vs/RIDLE/v15/Server/sqlite3/storage.ide-wal filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.recorder@2.5.7/Editor/Sources/ filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/33/33ddf24d7fa7d6e53127c59caded072e filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/6d/6d8e2782cea25a3d87ff206bad7a42ca filter=lfs diff=lfs merge=lfs -text
