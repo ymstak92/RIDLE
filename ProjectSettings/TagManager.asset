@@ -58,6 +58,33 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1536246791
+    locked: 0
+  - name: Stage_Middle
+    uniqueID: 2022011637
+    locked: 0
+  - name: Goal
+    uniqueID: 1797612243
+    locked: 0
+  - name: Gimmick_Back
+    uniqueID: 1976888369
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 2535836635
+    locked: 0
+  - name: Effect
+    uniqueID: 1977442413
+    locked: 0
+  - name: Gimmick_Forward
+    uniqueID: 2719748049
+    locked: 0
+  - name: Stage_Forward
+    uniqueID: 2975585243
+    locked: 0
+  - name: UI
+    uniqueID: 3764781145
     locked: 0

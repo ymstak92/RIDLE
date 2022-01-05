@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Firewall/Enemy3/SandBox_Enemy3.unity
+- path: Assets/Firewall/StartUp.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
