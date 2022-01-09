@@ -46,7 +46,7 @@ public class PlayerJump : MonoBehaviour {
 
     public bool IsFlipJumpFall { get; set; }
     public bool IsJump { get; set; }
-    public bool IsWorkSpeedFlip { get; set; }
+    public bool IsFlipJump_DownwardToDownward { get; set; }//FlipJump中に下向きに下降しているかの確認判定
 
     public bool IsFlipUpsideDown { get; set; }//上下反転を行ったかの確認判定
 
@@ -124,6 +124,7 @@ public class PlayerJump : MonoBehaviour {
         jumpSpeed = FlipJump(jumpSpeed);//NormalJump中は処理更新しない
         jumpSpeed = JumpDown(jumpSpeed);//ジャンプの上昇中は処理更新しない
         JumpButtonRelease();
+        Debug.Log("JumpSpeed__" + jumpSpeed);
         return jumpSpeed;
     }//MoveJump
 
@@ -266,22 +267,20 @@ public class PlayerJump : MonoBehaviour {
         }//if
 
         ///FlipJump状態を解除させる
-        if (_sideGravityFlipTimer > SIDE_GRAVITY_FLIP_TIME && 
-            _sideGravityFlipTimer < SIDE_GRAVITY_FLIP_TIME * 2 ) {
-            float jumpPower = FIRST_JUMP_POWER;
-            //下向きに落下する場合(左右重力状態の下向きFlipJumpや上重力状態のFlipJump)
-            if ((this.transform.localScale.x > 0 && this.transform.localEulerAngles.z == 270) ||
-                (this.transform.localScale.x < 0 && this.transform.localEulerAngles.z == 90) ||
-                (this.transform.localEulerAngles.z == 0 && JumpTypeFlag == EnumJumpTypeFlag.wallFlipFall)) {
-                if(this.transform.localEulerAngles.z != 0) {
-                    IsWorkSpeedFlip = true;
-                }//if
-                jumpPower = GRAVITY;
-            }//if
-             ///上昇,下降共通処理
+        if (_sideGravityFlipTimer > SIDE_GRAVITY_FLIP_TIME && _sideGravityFlipTimer < SIDE_GRAVITY_FLIP_TIME * 2 ) {
             _sideGravityFlipTimer = SIDE_GRAVITY_FLIP_TIME * 3;
             IsFlipJumpFall = true;
-            return jumpPower/2.25f;
+            //下向きに落下する場合(左右重力状態の下向きFlipJumpや上重力状態のFlipJump)
+            if(this.transform.localEulerAngles.z == 0 && JumpTypeFlag == EnumJumpTypeFlag.wallFlipFall)//そのまま落下する場合
+                return GRAVITY;
+            if ((this.transform.localScale.x > 0 && this.transform.localEulerAngles.z == 270) ||
+                (this.transform.localScale.x < 0 && this.transform.localEulerAngles.z == 90)) {//下方向を向いている場合
+                IsFlipJump_DownwardToDownward = true;
+                return GRAVITY / 2.25f;
+            }//if
+            if (JumpTypeFlag == EnumJumpTypeFlag.wallFlipFall)//上方向を向いている場合
+                return FIRST_JUMP_POWER / 2.25f;
+            return jumpSpeed;//FlipJump中に向きが変化した場合(例:バネに触れた場合)
         } else if (_sideGravityFlipTimer < SIDE_GRAVITY_FLIP_TIME * 3) {
             _sideGravityFlipTimer += Time.deltaTime;
         }//if

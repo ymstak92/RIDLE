@@ -89,7 +89,6 @@ public class PlayerManager : MonoBehaviour {
                 //操作可能
                 JumpPower = _pJump.MoveJump(JumpPower);
                 WorkPower = _pWork.MoveWork(WorkPower);//ジャンプ後の変変数取得が必要になるのでJumpSpeed後に記述する
-                Debug.Log("WorkPower_" + WorkPower);
                 _pWork.RightAngleWork(WorkPower);//角度変更移動
                 break;
             case EnumStageStatus.GoalMove:

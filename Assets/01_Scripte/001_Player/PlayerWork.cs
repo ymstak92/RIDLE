@@ -79,9 +79,9 @@ public class PlayerWork : MonoBehaviour {
     /// <param name="movingSpeed">自機の現在の移動量</param>
     public int FlipValueUpdate(int movingSpeed) {
         ///下に落下している状態でFlipJumpが解除されたとき
-        if (!_pJump.IsWorkSpeedFlip)
+        if (!_pJump.IsFlipJump_DownwardToDownward)
             return movingSpeed;
-        _pJump.IsWorkSpeedFlip = false;
+        _pJump.IsFlipJump_DownwardToDownward = false;
         if (_pUnderTrigger.IsUnderTrigger) { 
             return movingSpeed;
         }
