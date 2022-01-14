@@ -185,7 +185,8 @@ public class BossEnemyManager : MonoBehaviour {
         _stageClearManagement.StageStatus = EnumStageStatus.AfterBossBattle;
         _recoveryTimer += Time.deltaTime;
         Animator.SetBool("AniMiss", true);
-        this.GetComponent<PolygonCollider2D>().isTrigger = true;
+        //this.GetComponent<PolygonCollider2D>().isTrigger = true;
+        LayerChange.ParentAndChildChange(this.gameObject, "Not Interference");
         SpriteRendererEnable();
         StartCoroutine("MissEnumerator");
     }//EnemyMiss

@@ -124,7 +124,6 @@ public class PlayerJump : MonoBehaviour {
         jumpSpeed = FlipJump(jumpSpeed);//NormalJump中は処理更新しない
         jumpSpeed = JumpDown(jumpSpeed);//ジャンプの上昇中は処理更新しない
         JumpButtonRelease();
-        Debug.Log("JumpSpeed__" + jumpSpeed);
         return jumpSpeed;
     }//MoveJump
 

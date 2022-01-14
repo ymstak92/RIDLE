@@ -74608,6 +74608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BossEnemy1
       objectReference: {fileID: 0}
+    - target: {fileID: 7538338453054742521, guid: dbabc418a5ce8624a93f209455bc7f9a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7538338453054742524, guid: dbabc418a5ce8624a93f209455bc7f9a, type: 3}
       propertyPath: audioClip
       value: 

@@ -148,6 +148,7 @@
     <Compile Include="Assets\01_Scripte\004_Gimmick\WorkThorn.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\Masking\CubismMaskCommandBuffer.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\LookAt\CubismLookTargetBehaviour.cs" />
+    <Compile Include="Assets\Firewall\Enemy3\UnitySize\LayerChange.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\CubismParametersInspector.cs" />
     <Compile Include="Assets\01_Scripte\009_Scene\SceneSingleton.cs" />
     <Compile Include="Assets\01_Scripte\002_Enemy\NormalEnemy\Enemy8.cs" />
@@ -202,9 +203,9 @@
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Core\Unmanaged\CubismUnmanagedMemory.cs" />
     <Compile Include="Assets\01_Scripte\001_Player\PlayerManager.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\CubismRenderController.cs" />
-    <Compile Include="Assets\01_Scripte\003_Stage\Supporter1.cs" />
     <Compile Include="Assets\01_Scripte\004_Gimmick\MovingRock_Side.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\CubismDisplayInfoParameterName.cs" />
+    <Compile Include="Assets\01_Scripte\003_Stage\Supporter1.cs" />
     <Compile Include="Assets\01_Scripte\002_Enemy\BossEnemy\BossEnemy1.cs" />
     <Compile Include="Assets\01_Scripte\009_Scene\SingletonMonoBehaviour.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\Tasking\CubismBuiltinAsyncTaskHandler.cs" />
@@ -234,6 +235,7 @@
     <Compile Include="Assets\01_Scripte\001_Player\PlayerWork.cs" />
     <Compile Include="Assets\01_Scripte\002_Enemy\NormalEnemy\EnemyTypeA.cs" />
     <Compile Include="Assets\01_Scripte\003_Stage\RotatingArrow.cs" />
+    <Compile Include="Assets\Firewall\BigEnemy\Velocity.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MouthMovement\CubismAudioMouthInput.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\Physics\CubismPhysics.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MotionFade\CubismFadePlayingMotion.cs" />
@@ -246,9 +248,9 @@
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\CubismBuiltinShaders.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\Expression\CubismPlayingExpression.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\Physics\CubismPhysicsSubRig.cs" />
-    <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MotionFade\CubismFadeMotionData.cs" />
     <Compile Include="Assets\01_Scripte\001_Player\PlayerLife.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\CubismBuiltinMaterials.cs" />
+    <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MotionFade\CubismFadeMotionData.cs" />
     <Compile Include="Assets\01_Scripte\011_SaveData\SaveManager.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Core\CubismDrawable.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\CubismEyeBlinkController.cs" />
@@ -260,8 +262,10 @@
     <Compile Include="Assets\01_Scripte\003_Stage\StageEdgeGeneration.cs" />
     <Compile Include="Assets\01_Scripte\009_Scene\StageStartInitialize.cs" />
     <Compile Include="Assets\01_Scripte\004_Gimmick\DigonalCannon.cs" />
+    <Compile Include="Assets\Firewall\Enemy3\UnitySize\PolygonColliderChange.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\Masking\CubismMaskTexture.cs" />
     <Compile Include="Assets\01_Scripte\011_SaveData\Config.cs" />
+    <Compile Include="Assets\01_Scripte\002_Enemy\BossEnemy\BossEnemyManager_Re.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MotionFade\CubismFadeCurveType.cs" />
     <Compile Include="Assets\01_Scripte\009_Scene\GameStartInit.cs" />
     <Compile Include="Assets\01_Scripte\011_SaveData\ConfigDataDefine.cs" />
@@ -275,6 +279,7 @@
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Samples\AsyncBenchmark\FrameRateMeasurer.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MotionFade\CubismFadeMath.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Rendering\Masking\CubismMaskTransform.cs" />
+    <Compile Include="Assets\Firewall\Enemy3\UnitySize\SpriteEnable.cs" />
     <Compile Include="Assets\01_Scripte\002_Enemy\AttackEffect.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\Physics\CubismPhysicsController.cs" />
     <Compile Include="Assets\AddAssets\Live2D\Cubism\Framework\MouthMovement\CubismAutoMouthInput.cs" />
@@ -900,8 +905,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -918,6 +929,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -933,14 +947,8 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Recorder.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Recorder">
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Recorder.Base">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

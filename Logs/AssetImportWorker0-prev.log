@@ -1,0 +1,233 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1466; Version 2009; 64bit' Language: 'ja' Physical Memory: 16323 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityData/RIDLE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+11885
+Successfully changed project path to: D:/UnityData/RIDLE
+D:/UnityData/RIDLE
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityData/RIDLE/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   30.0.13023.1012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002101 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 49.41 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.22 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2167 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 2.091400 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.730100 ms  DeleteObjects: 0.079900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Firewall/Enemy3/SandBox_Enemy3.unity
+  artifactKey: Guid(bd436d5bb54b30146b8c316a6cbf1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/SandBox_Enemy3.unity using Guid(bd436d5bb54b30146b8c316a6cbf1a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5359e434e8cf559dd191c485052a5130') in 0.017328 seconds
+  Import took 0.020892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.788591 seconds.
+  path: Assets/Firewall/Enemy3/UnitySize/LayerChange.cs
+  artifactKey: Guid(bd1aaa2083db39f478ea2d3b48563468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/UnitySize/LayerChange.cs using Guid(bd1aaa2083db39f478ea2d3b48563468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f78fa9ab67ce593ad5a18267f462510') in 0.024643 seconds
+  Import took 0.028014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.727049 seconds.
+  path: Assets/01_Scripte/011_SaveData/StageDataEdit.cs
+  artifactKey: Guid(ab5ef89448735c0458838edf900cee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_Scripte/011_SaveData/StageDataEdit.cs using Guid(ab5ef89448735c0458838edf900cee0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198ab50dfadfddf2f702087c6cc9722c') in 0.006973 seconds
+  Import took 0.010378 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2582.
+Total: 2.079100 ms (FindLiveObjects: 0.234700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.732100 ms  DeleteObjects: 0.058600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 2.033300 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.682500 ms  DeleteObjects: 0.068000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1558.821408 seconds.
+  path: Assets/Firewall/Enemy3/UnitySize/LayerMask.cs
+  artifactKey: Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/UnitySize/LayerMask.cs using Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f65c81a72a7c5a420b6c7d45393b290') in 0.018013 seconds
+  Import took 0.025705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.043743 seconds.
+  path: Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs
+  artifactKey: Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs using Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b39efd3f1c47d0a6f198bd96ee52c82') in 0.008254 seconds
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 2.076900 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.712900 ms  DeleteObjects: 0.063300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.123051 seconds.
+  path: Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs
+  artifactKey: Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs using Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e8ab7288bbceae46bac743ee31312b') in 0.004777 seconds
+  Import took 0.007876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004190 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 2.553600 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.208600 ms  DeleteObjects: 0.068500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.616746 seconds.
+  path: Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs
+  artifactKey: Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firewall/Enemy3/UnitySize/LayerMaskCheck.cs using Guid(a7144fadd2bf42941a9edbcc533af212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ecc01a2abf96ceed6169c6e3c2aa25') in 0.004432 seconds
+  Import took 0.007432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2154 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.389300 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.015500 ms  DeleteObjects: 0.075700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
