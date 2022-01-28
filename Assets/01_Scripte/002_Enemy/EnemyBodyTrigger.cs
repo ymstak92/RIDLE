@@ -17,6 +17,7 @@ public class EnemyBodyTrigger : MonoBehaviour {
 
     public bool IsStageTouch { get; set; }//現在,BossEnemy1でしか使用していない。
 
+
     private void OnTriggerEnter2D(Collider2D col) {
         if (this.gameObject.layer == LayerMask.NameToLayer("EnemyAttack")) {
             if (col.gameObject.tag == "PlayerTrampling") {
